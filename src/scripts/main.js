@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }));
   }
 
-  sortList(list);
+  sortList();
 
-  const employees = getEmployees(list);
+  const employees = getEmployees();
 
   console.log(employees);
 });
